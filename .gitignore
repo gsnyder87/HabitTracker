@@ -1,6 +1,34 @@
-
+**HabitTracker.ApiService/obj/Debug/
+Debug/
+Release/
 *.vsidx
 
 .vs/HabitTracker/solutionOpened
 
 .vs/HabitTracker/v17/
+
+HabitTracker.ApiService/bin/Debug/net8.0/
+
+.vs/ProjectEvaluation/
+
+.vs/HabitTracker/config/applicationhost.config
+
+.vs/HabitTracker/DesignTimeBuild/.dtbcache.v2
+
+**HabitTracker.ApiService/obj/Debug/
+
+
+**HabitTracker.ApiService/obj/Debug/net8.0/**
+**HabitTracker.AppHost/bin/Debug/
+**HabitTracker.AppHost/obj/Debug/
+**HabitTracker.Web/bin/Debug/
+**HabitTracker.Web/obj/Debug/
+**HabitTracker.Web/obj/Debug/
+**HabitTracker.ServiceDefaults/obj/Debug/
+**HabitTracker.ServiceDefaults/bin/Debug/
+
+
+
+HabitTracker.ApiService/HabitTracker.ApiService.csproj.user
+
+**HabitTracker.ApiService/obj/Debug/net8.0/

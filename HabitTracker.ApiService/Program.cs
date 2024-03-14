@@ -5,8 +5,16 @@ builder.AddServiceDefaults();
 
 // Add services to the container.
 builder.Services.AddProblemDetails();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+//if (app.Environment.IsDevelopment())
+//{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+//}
+
 
 // Configure the HTTP request pipeline.
 app.UseExceptionHandler();
@@ -31,6 +39,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.MapDefaultEndpoints();
 
+app.UseHttpsRedirection();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
