@@ -32,3 +32,15 @@ HabitTracker.ApiService/bin/Debug/net8.0/
 HabitTracker.ApiService/HabitTracker.ApiService.csproj.user
 
 **HabitTracker.ApiService/obj/Debug/net8.0/
+
+HabitTrackereDataAccess/HabitTrackereDataAccess.csproj
+
+HabitTrackereDataAccess/obj/HabitTrackereDataAccess.csproj.nuget.dgspec.json
+
+HabitTrackereDataAccess/obj/HabitTrackereDataAccess.csproj.nuget.g.props
+
+HabitTrackereDataAccess/obj/HabitTrackereDataAccess.csproj.nuget.g.targets
+
+HabitTrackereDataAccess/obj/project.assets.json
+
+HabitTrackereDataAccess/obj/project.nuget.cache
