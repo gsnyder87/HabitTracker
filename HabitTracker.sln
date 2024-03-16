@@ -2,13 +2,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitTracker.AppHost", "HabitTracker.AppHost\HabitTracker.AppHost.csproj", "{70747A9C-9221-4EA7-9134-340F4B155355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HabitTracker.AppHost", "HabitTracker.AppHost\HabitTracker.AppHost.csproj", "{70747A9C-9221-4EA7-9134-340F4B155355}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HabitTracker.ServiceDefaults", "HabitTracker.ServiceDefaults\HabitTracker.ServiceDefaults.csproj", "{CA717017-554E-4D42-85A8-60E3AF6B707F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HabitTracker.ApiService", "HabitTracker.ApiService\HabitTracker.ApiService.csproj", "{7CA1F23C-E78A-4164-99CF-4D7417665AFA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HabitTracker.Web", "HabitTracker.Web\HabitTracker.Web.csproj", "{C0DD8598-17DC-49D6-8B59-A80957ECFF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitTracker.Domain", "HabitTracker.Domain\HabitTracker.Domain.csproj", "{D85EC8AB-D9B4-4E88-8F1F-E8ADCAAC7F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitTracker.DataAccess", "HabitTracker.DataAccess\HabitTracker.DataAccess.csproj", "{C93A8923-3AA9-412F-B37B-D6AC331F64A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,14 @@ Global
 		{C0DD8598-17DC-49D6-8B59-A80957ECFF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0DD8598-17DC-49D6-8B59-A80957ECFF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0DD8598-17DC-49D6-8B59-A80957ECFF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85EC8AB-D9B4-4E88-8F1F-E8ADCAAC7F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85EC8AB-D9B4-4E88-8F1F-E8ADCAAC7F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85EC8AB-D9B4-4E88-8F1F-E8ADCAAC7F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85EC8AB-D9B4-4E88-8F1F-E8ADCAAC7F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93A8923-3AA9-412F-B37B-D6AC331F64A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93A8923-3AA9-412F-B37B-D6AC331F64A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93A8923-3AA9-412F-B37B-D6AC331F64A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93A8923-3AA9-412F-B37B-D6AC331F64A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
